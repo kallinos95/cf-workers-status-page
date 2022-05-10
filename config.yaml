@@ -38,29 +38,29 @@ monitors:
     method: GET
     expectStatus: 200
 
-  #   - id: www-mega-ploutos-com
-  #   name: www.megaploutos.com
-  #   url: 'https://megaploutos.com/'
-  #   method: GET
-  #   expectStatus: 200
+    - id: www-mega-ploutos-com
+    name: www.megaploutos.com
+    url: 'https://megaploutos.com/'
+    method: GET
+    expectStatus: 200
 
-  #   - id: www-mega-ploutos-aifm-com
-  #   name: www.mpaifm.com
-  #   url: 'https://mpaifm.com/'
-  #   method: GET
-  #   expectStatus: 200
+    - id: www-mega-ploutos-aifm-com
+    name: www.mpaifm.com
+    url: 'https://mpaifm.com/'
+    method: GET
+    expectStatus: 200
 
-  # - id: www-grounded-sportswear-com
-  #   name: www.groundedsportswear.com
-  #   url: 'http://groundedsportswear.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-grounded-sportswear-com
+    name: www.groundedsportswear.com
+    url: 'http://groundedsportswear.com/'
+    method: GET
+    expectStatus: 200
 
-  # - id: www-mastertype-com-cy
-  #   name: www.mastertype.com.cy
-  #   url: 'https://mastertype.com.cy/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-mastertype-com-cy
+    name: www.mastertype.com.cy
+    url: 'https://mastertype.com.cy/'
+    method: GET
+    expectStatus: 200
 
   # - id: www-thespeechbuddies-com
   #   name: www.thespeechbuddies.com
