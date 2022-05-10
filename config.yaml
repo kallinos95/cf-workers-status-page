@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: finphat.com
-    description: 'FinPhat product reviews' # default=empty
-    url: 'https://www.finphat.com/' # URL to fetch
+  - id: icon-cy # unique identifier
+    name: icon.cy
+    description: 'ICON SOLUTIONS' # default=empty
+    url: 'https://www.icon.cy/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
