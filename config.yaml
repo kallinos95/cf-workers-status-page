@@ -52,7 +52,7 @@ monitors:
 
   - id: www-grounded-sportswear-com
     name: www.groundedsportswear.com
-    url: 'http://groundedsportswear.com/'
+    url: 'https://groundedsportswear.com/'
     method: GET
     expectStatus: 200
 
