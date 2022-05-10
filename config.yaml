@@ -15,36 +15,36 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  # - id: www.icon-cy # unique identifier
-  #   name: www.icon.cy
-  #   description: 'ICON SOLUTIONS CY' # default=empty
-  #   url: 'https://www.icon.cy/' # URL to fetch
-  #   method: GET # default=GET
-  #   expectStatus: 200 # operational status, default=200
-  #   followRedirect: true # should fetch follow redirects, default=false
-  #   linkable: true # allows the title to be a link, default=true
+  - id: www.icon-cy # unique identifier
+    name: www.icon.cy
+    description: 'ICON SOLUTIONS CY' # default=empty
+    url: 'https://www.icon.cy/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
 
-  # - id: www-naturelea-com
-  #   name: www.naturelea.com
-  #   description: 'Naturelea products'
-  #   url: 'https://naturelea.com/'
-  #   method: GET
-  #   expectStatus: 200
-  #   linkable: true # allows the title to be a link, default=true
+  - id: www-naturelea-com
+    name: www.naturelea.com
+    description: 'Naturelea products'
+    url: 'https://naturelea.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
 
-  # - id: www-megaequity-com
-  #   name: www.megaequity.com
-  #   url: 'https://megaequity.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-megaequity-com
+    name: www.megaequity.com
+    url: 'https://megaequity.com/'
+    method: GET
+    expectStatus: 200
 
-  #   - id: www-mega-ploutos-com
-  #   name: www.megaploutos.com
-  #   url: 'https://megaploutos.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-mega-ploutos-com
+    name: www.megaploutos.com
+    url: 'https://megaploutos.com/'
+    method: GET
+    expectStatus: 200
 
-    - id: www-mega-ploutos-aifm-com
+  - id: www-mega-ploutos-aifm-com
     name: www.mpaifm.com
     url: 'https://mpaifm.com/'
     method: GET
@@ -62,26 +62,26 @@ monitors:
     method: GET
     expectStatus: 200
 
-  # - id: www-thespeechbuddies-com
-  #   name: www.thespeechbuddies.com
-  #   url: 'https://thespeechbuddies.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-thespeechbuddies-com
+    name: www.thespeechbuddies.com
+    url: 'https://thespeechbuddies.com/'
+    method: GET
+    expectStatus: 200
 
-  # - id: www-demosgeorgiades-com
-  #   name: www.demosgeorgiades.com
-  #   url: 'https://demosgeorgiades.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-demosgeorgiades-com
+    name: www.demosgeorgiades.com
+    url: 'https://demosgeorgiades.com/'
+    method: GET
+    expectStatus: 200
 
-  # - id: www-instofyouth-com
-  #   name: www.instofyouth.com
-  #   url: 'https://instofyouth.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-instofyouth-com
+    name: www.instofyouth.com
+    url: 'https://instofyouth.com/'
+    method: GET
+    expectStatus: 200
 
-  # - id: www-leodoes-com
-  #   name: www.leodoes.com
-  #   url: 'https://leodoes.com/'
-  #   method: GET
-  #   expectStatus: 200
+  - id: www-leodoes-com
+    name: www.leodoes.com
+    url: 'https://leodoes.com/'
+    method: GET
+    expectStatus: 200
