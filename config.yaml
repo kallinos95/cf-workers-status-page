@@ -15,25 +15,25 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: icon-cy # unique identifier
-    name: icon.cy
+  - id: www.icon-cy # unique identifier
+    name: www.icon.cy
     description: 'ICON SOLUTIONS' # default=empty
     url: 'https://www.icon.cy/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
+  - id: www-naturelea-com
+    name: www.naturelea.com
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://naturelea.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: www-megaequity-com
+    name: Megae Euity
+    url: 'https://megaequity.com/'
     method: GET
     expectStatus: 200
