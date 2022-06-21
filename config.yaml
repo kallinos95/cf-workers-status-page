@@ -85,3 +85,15 @@ monitors:
     url: 'https://leodoes.com/'
     method: GET
     expectStatus: 200
+
+  - id: www-ayiosminasltd-com
+    name: www.ayiosminasltd.com
+    url: 'https://ayiosminasltd.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: www-caoutdoorshelters-com
+    name: www.caoutdoorshelters.com
+    url: 'https://caoutdoorshelters.com/'
+    method: GET
+    expectStatus: 200
