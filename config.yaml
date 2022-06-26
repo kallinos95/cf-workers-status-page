@@ -97,3 +97,9 @@ monitors:
     url: 'https://caoutdoorshelters.com/'
     method: GET
     expectStatus: 200
+
+  - id: www-ppkm-com-cy
+    name: www.ppkm.com.cy
+    url: 'https://ppkm.com.cy/'
+    method: GET
+    expectStatus: 200
