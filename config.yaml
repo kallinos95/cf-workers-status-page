@@ -109,6 +109,7 @@ monitors:
     url: 'https://ppkm.com.cy/'
     method: GET
     expectStatus: 200
+    linkable: true
 
   - id: www-thespeechbuddies-com
     name: www.thespeechbuddies.com
