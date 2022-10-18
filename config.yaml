@@ -103,3 +103,15 @@ monitors:
     url: 'https://ppkm.com.cy/'
     method: GET
     expectStatus: 200
+
+  - id: www-megaequitycasp-com
+    name: www.megaequitycasp.com
+    url: 'https://megaequitycasp.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: www-depcon-com-cy
+    name: www.depcon.com.cy
+    url: 'https://depcon.com.cy/'
+    method: GET
+    expectStatus: 200
