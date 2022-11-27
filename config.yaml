@@ -21,6 +21,12 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: www-beaherocy-com
+    name: www.beaherocy.com
+    url: 'https://beaherocy.com/'
+    method: GET
+    expectStatus: 200
+
   - id: www-caoutdoorshelters-com
     name: www.caoutdoorshelters.com
     url: 'https://caoutdoorshelters.com/'
@@ -81,12 +87,6 @@ monitors:
   - id: www-megaequity-com
     name: www.megaequity.com
     url: 'https://megaequity.com/'
-    method: GET
-    expectStatus: 200
-
-  - id: www-mega-ploutos-aifm-com
-    name: www.mpaifm.com
-    url: 'https://mpaifm.com/'
     method: GET
     expectStatus: 200
 
