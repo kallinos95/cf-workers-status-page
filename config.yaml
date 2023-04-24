@@ -110,15 +110,15 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true
+  
+  - id: www-taverneiotoistorikon-com
+    name: www.taverneiotoistorikon.com
+    url: 'https://taverneiotoistorikon.com/'
+    method: GET
+    expectStatus: 200
 
   - id: www-thespeechbuddies-com
     name: www.thespeechbuddies.com
     url: 'https://thespeechbuddies.com/'
-    method: GET
-    expectStatus: 200
-
-  - id: www-taverneiotoistorikon-com
-    name: www.taverneiotoistorikon.com
-    url: 'https://taverneiotoistorikon.com/'
     method: GET
     expectStatus: 200
