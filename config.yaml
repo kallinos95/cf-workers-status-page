@@ -116,6 +116,7 @@ monitors:
     url: 'https://taverneiotoistorikon.com/'
     method: GET
     expectStatus: 200
+    linkable: true
 
   - id: www-thespeechbuddies-com
     name: www.thespeechbuddies.com
